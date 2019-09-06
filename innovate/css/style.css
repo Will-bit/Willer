@@ -1,0 +1,44 @@
+.body {
+
+  color:white;
+  font-size: 12px;
+  line-height: 1.6em;
+  margin:0;
+  font-family: Ariel, Helvetica, sans-serif;
+}
+
+will {
+  background-color:orange;
+  color:white;
+  line-height:1.6em;
+  margin:0;
+
+}
+
+.container{
+  width:80%;
+  margin:auto;
+}
+.box-1{
+  background-color:#333;
+  color:white;
+  border-right:5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  /* Same as above */
+  border: 5px red solid;
+  border-width: 3px;
+  border-bottom-width:10px;
+  border-top-style:dotted;
+
+  padding-top:20px;
+
+}
+
+.box-1 h1{
+  font-family:tahoma;
+}
+.row1, .row2 {
+   display: flex;
+   flex-direction: row;
